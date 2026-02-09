@@ -31,6 +31,8 @@ tqdm
 
 ### Step 1. VAD Preprocessing
 
+git clone https://github.com/snakers4/silero-vad.git
+
 Converts audio to mono/16kHz and runs Silero VAD to extract per-frame (32ms) speech probabilities into CSV files.
 
 ```bash
