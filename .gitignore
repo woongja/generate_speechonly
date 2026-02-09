@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Logs and outputs
+logs/
+out/
+runs/
+*.log
+tensorboard/
+
+# Data
+Datasets/
+Dataset/
+data/
+*.wav
+*.flac
+*.mp3
+protocols/
+
+# Models
+models/
+checkpoints/
+*.pth
+*.pt
+xlsr2_300m.pt
+silero-vad/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Evaluation outputs
+eval_scores.txt
+scores.txt
